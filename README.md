@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>I'm a Docker Beginner</title>
-</head>
-<body>
-  <h1>I'm a Docker Beginner</h1>
+
+  <h1>Docker for Beginners</h1>
 
   <h2>Official Documentation:</h2>
   <ul>
