@@ -63,5 +63,56 @@
   </ul>
 
   <hr>
-</body>
-</html>
+
+<h2>Docker Commands</h2>
+
+  <h3>Docker base command (shows the commands list)</h3>
+  <pre><code>docker</code></pre>
+
+  <h3>Versions of components</h3>
+  <pre><code>docker version</code></pre>
+
+  <h3>CLI version</h3>
+  <pre><code>docker --version</code></pre>
+
+  <h3>Pull an image or a repository</h3>
+  <pre><code>docker pull [repository:tag]</code></pre>
+
+  <h3>This will pull the latest images of that type</h3>
+  <pre><code>docker pull [repository]</code></pre>
+
+  <h3>If you want to set a specific version</h3>
+  <pre><code>docker pull [repository]:[tag]</code></pre>
+
+  <h3>Base Command for Docker images (shows the command list)</h3>
+  <pre><code>docker images</code></pre>
+
+  <h3>Get the list of all images</h3>
+  <pre><code>docker images -a</code></pre>
+
+  <h3>Get the list of all running containers</h3>
+  <pre><code>docker ps</code></pre>
+
+  <h3>Stopping a running container</h3>
+  <pre><code>docker stop [container_id]</code></pre>
+
+  <h3>Restart a container</h3>
+  <pre><code>docker restart [container_id]</code></pre>
+
+  <h3>Removing a container</h3>
+  <pre><code>docker rm [container_id]</code></pre>
+
+  <h3>Removing an image</h3>
+  <pre><code>docker rmi [image_id]</code></pre>
+
+  <h3>Removing a volume</h3>
+  <pre><code>docker volume rm [volume_name]</code></pre>
+
+  <h3>Remove all stopped containers</h3>
+  <pre><code>docker container prune</code></pre>
+
+  <h3>Remove unused images</h3>
+  <pre><code>docker image prune</code></pre>
+
+  <h3>Remove unused local volumes</h3>
+  <pre><code>docker volume prune</code></pre>
