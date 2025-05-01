@@ -1,1 +1,1 @@
-<h1> Docker For Beginners</h1>
+<h1 align=left> Docker For Beginners</h1>
